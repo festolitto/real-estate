@@ -1,0 +1,4017 @@
+
+/*start homepage*/
+#homebody {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+.slide{
+	height:70vh;
+	width:100%;
+	position:relative;
+	background:;
+}
+.sldimg{
+	height:100%;
+	width:100%;
+}
+footer{
+	background:black;
+	min-height:30vh;
+	width:100%;
+	
+}
+#social{
+	height:8vh;
+	width:30%;
+	margin-left:35%;
+	position:absolute;
+	margin-top:5vh;
+
+}
+i{
+	float:left;
+	width:20%;
+	margin-left:4%;
+	height:80%;
+	padding-top:2%;
+	color:white;
+	padding-left:9%;
+	font-size:20;
+	background:teal;
+	border-radius:5px;
+	
+}
+#slideimage{
+	height:100%;
+	width:100%;
+	
+}
+#info{
+	position:absolute;
+	color:white;
+	font-size:28px;
+	font-family:San Serif;
+	top:40%;
+	left:20%;
+	z-index:3;
+}
+#mother{
+	height:70vh;
+	width:100%;
+}
+#child{
+	height:80vh;
+	width:100%;
+	position:absolute;
+	background:#333;
+	background:transparent;
+}
+.lgform{
+	position:absolute;
+	height:50vh;
+	width:30%;
+	background:#f0f0f0;
+	margin-left:37%;
+	margin-top:2vh;
+	display:none;
+	z-index: 1000;
+}
+.lgform input{
+	display:block;
+	height:6vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:2vh;
+}
+.lgform label{
+	margin-left:5%;
+}
+#top{
+	min-height:10vh;
+	background:teal;
+	width:100%;
+	text-align:center;
+	
+}
+#top p,h3{
+	padding-top:5%;
+	color:white;
+}
+#loginbtn{
+	height:6vh;
+	width:100%;
+	background:transparent;
+	border:none;
+}
+
+.regform{
+	position:absolute;
+	height:90vh;
+	width:35%;
+	background:#f0f0f0;
+	margin-left:32.5%;
+	margin-top:2vh;
+	
+	display:none;
+	z-index: 1000;
+	
+}
+.regform1{
+	position:absolute;
+	height:100%;
+	width:35%;
+	background:#ffffff;
+	margin-left:32.5%;
+	margin-top:2vh;
+	
+	z-index: 1000;
+	
+	
+}
+.regform1 input{
+	display:block;
+	height:5vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:1vh;
+}
+.regform1 label{
+	margin-left:5%;
+}
+.regform input{
+	display:block;
+	height:5vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:1vh;
+}
+.regform label{
+	margin-left:5%;
+}
+@media only screen and (max-width: 600px) {
+	.regform,.lgform{
+		width:100%;
+		margin:0%;
+	}
+	
+}
+#success{
+		color:green;
+		margin-left:32.5%;
+	}
+	#fail{
+		color:red;
+		margin-left:32.5%;
+		
+	}
+#search{
+	padding-top:;	
+   }
+/*#selectloc{
+	height:7vh;
+	width:100%;
+	margin-left:0%;
+	margin-top: 5%;
+	border:solid 2px green;
+	border-radius:17px;
+	
+}*/
+/*#searchbtn{
+	width:80%;
+	height:5vh;
+	margin-left:10%;
+	border:solid 1px green; 
+
+}*/
+/*
+
+*/
+/*#choose{
+	margin-left: 50%;
+}*/
+	#welcome h3{
+		color:green;
+		margin-top:-8vh;
+		
+		
+	}
+	#welcome{
+		text-align:center;
+		height:9vh;
+	}
+	.all{
+		height:73vh;
+		margin-top:4%;
+		float:left;
+		color: #000000;
+		font-family: 'Lato', sans-serif;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		background:white;
+		
+	}
+	#pics{
+		width:100%;
+		height:43%;
+		
+	}
+	#details{
+		padding:7px;
+		width:100%;
+		height:57%;
+		font-size:15px;
+	}
+	#details label{
+		font-weight:bold;
+	}
+	#detail{
+		height:450vh;
+		background:white;
+		display:none;
+	}
+	#detail2{
+		height:200vh;
+		background:white;
+	}
+	p{
+		text-transform: capitalize;
+	}
+	#apid{
+		display:none;
+	}
+	#book{
+		width:90%;
+		height:5vh;
+		background-color:#4DBB49;
+		border:none;
+		margin-left:5%;
+		margin-top:1.5vh;
+		color:white;
+		font-weight:bold;
+		
+	}
+	#view{
+		width:50%;
+		height:4vh;
+		border: 1px #4DBB49 solid;
+		background: transparent;
+		color:#4DBB49;  
+		background-color:;
+		margin-left:25%;
+	}
+	#more{
+		min-height:100vh;
+		margin-top:;
+		
+	}
+	#picture{
+		height:80vh;
+		width:90%;
+		margin-left:5%;
+		background: ;
+		margin-top:7vh;
+	}
+	.container{
+		height:100vh;
+		width:100%;
+		position: absolute;
+	}
+	#desc{
+		min-height:40vh;
+		margin-left:5%;
+		width:90%;
+	}
+	#apname{
+		text-align:center;
+	}
+	#bookbtn{
+		height:6vh;
+		width:80%;
+		margin-left:60%;
+		background:#4DBB49;
+		border:none;
+		color:white;
+	}
+	#viewbtn{
+		height:6vh;
+		width:80%;
+		margin-left:4%;
+		border:1px solid orange;
+	}
+	#bookingform{
+		background:white;
+		width:70%;
+		margin-left:15%;
+		height:80vh;
+	}
+	#bookingform label{
+          margin-left:25%;
+		  
+	}
+	
+	#bookingform input,select{
+		display:block;
+		margin-left:25%;
+		margin-bottom:3vh;
+		height:6vh;
+		width:50%;
+		border-radius:5px;
+	}
+	#bookformbtn{
+		
+		width:20%;
+		margin-left:30%;
+		float:left;
+		
+	}
+	#seeformbtn{
+		
+		width:20%;
+		margin-left:15%;
+		float:left;
+	}
+	
+	/* slider */
+.carousel-inner{
+  padding:0%;
+  height: 70vh;
+}
+.slider1{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/sliderimage1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: brightness(80%);
+}
+.slider2{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/sliderimage2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: brightness(80%);
+}
+.slider3{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/img3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slider4{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/img4.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slider5{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/img6.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slider6{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/img1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}.slider7{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}.slider8{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+ font-family: Product Sans;
+  background-image: url(../images/img2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption{
+  margin-bottom: 15vh;
+  position: absolute;
+  font-family: 'Merienda', cursive;
+}
+.btn-tag-nav{
+  background-color: #f59730;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+  margin-top: 15px;
+  font-family: 'Merienda', cursive;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.btn-tag{
+  background-color: #00A14A;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Merienda', cursive;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.item{
+  margin-bottom: 10px;
+}
+.item-image{
+  width: 100%;
+}
+/* end slider */
+    #searchdiv{
+         width:100%;
+         background:;
+         height:6vh;
+         margin-top: 2%;
+    }
+    #searchdiv form #selectloc{
+    	float:left;
+    	width: 40%;
+    	height:6vh;
+    	margin-left:3%;
+    	margin-right: 3%;
+    
+    }
+	#choose{
+		float:left;
+		margin-right:;
+		width:20%;		
+		
+		height:6vh;
+
+		
+		
+	}
+    #searchbtn{
+		float:left;
+		margin-right:;
+		width:20%;	
+		height:6vh;
+	}
+	
+	#houses{
+		background:;
+		height: 200vh;
+		position: relative;
+	}
+	#picture .carousel-inner{
+             height:69vh;
+	}
+	#picture .container{
+             height:80vh;
+	}
+	h4{
+		text-transform: capitalize;
+	}
+	#admin{
+		float: right;
+	}
+	#active a{
+    height:11vh; 
+    background: #116466;
+   }
+
+/*End of home*/
+
+/*Start about*/
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+footer{
+	background:#C2CAD0;
+	min-height:30vh;
+	width:100%;
+	
+}
+.about{
+  width: 100%;
+  background:;
+  margin-top: 3vh;
+  min-height: 80vh;
+}
+.image{
+     width: 45%;
+     float: left;
+     background: yellow;
+     min-height: 50vh;
+     margin-left: 3%;
+
+}
+img{
+  width:100%;
+}
+.content{
+     width: 45%;
+     float: left;
+     color:white;
+     background: black;
+     min-height: 70vh;
+     margin-left: 3%;
+     opacity: 0.7;
+}
+.content p{
+  font-size: 18px;
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+#aboutbody{
+  background: #f0f0f0;
+}
+#active a{
+    height:11vh; 
+    background: #116466;
+   }
+/*End about*/
+
+
+/*start of activebooking*/
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+#landlordportal{
+  font-size: 22px;
+  color:white;
+  margin-right: 5%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+
+
+
+#search label{
+  margin-left:10%;
+  
+}
+.sldimg{
+  height:100%;
+  width:100%;
+}
+footer{
+  background:black;
+  min-height:30vh;
+  width:100%;
+  
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+body{
+  background: #f0f0f0;
+}
+#portal{
+min-height: 90vh;
+background: white;
+border:solid 1px aqua;
+margin:4%;
+margin-top: 1%;
+}
+#portalnav{
+  width:100%;
+  min-height:7vh;
+  }
+  #session{
+   float: right;
+   color:orange;
+   text-transform: capitalize;
+  }
+  tr:nth-child(odd){
+  	background: #f0f0f0;
+
+  }
+  #header th{
+    text-align: center;
+    color:white;
+    background: #116466;
+  }
+  th{
+    text-align: left;
+    color:white;
+    background: #116466;
+  }
+  #header{
+    background: #116466;
+  }
+  #fail{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+  }
+  #success{
+    color:green;
+    text-align:center;
+    font-weight: bold;
+  }
+   #info{
+    color:orange;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   #checkedinbtn{
+    border:none;
+    color:white;
+    background:#116466 ;
+    height:5vh;
+    border-radius:5px;
+   }
+   #oid{
+    display: none;
+   }
+   #active a{
+    height:11vh; 
+    background: #116466;
+   }
+   #ltable{
+    width: 100%;
+   }
+   .selectapform{
+       margin-left:20%;
+       margin-top: 2vh;
+       margin-bottom: 2vh;
+   }
+   .selectapform select{
+    height:6vh;
+    width:30%;
+    border-radius: 4px;
+    
+   }
+   .selectapform input{
+    height:5.5vh;
+    width:15%;
+    border:none;
+    color:white;
+    background:#008ECC;
+    border-radius: 3px;
+  }
+
+  /*End of activebooking*/
+
+  /*start Addapartment*/
+  #addbody {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+#landlordportal{
+  font-size: 22px;
+  color:white;
+  margin-right: 5%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+
+
+
+#search label{
+  margin-left:10%;
+  
+}
+.sldimg{
+  height:100%;
+  width:100%;
+}
+footer{
+  background:black;
+  min-height:30vh;
+  width:100%;
+  
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+body{
+  background: #f0f0f0;
+}
+#portal{
+min-height: 90vh;
+background: white;
+border:solid 1px aqua;
+margin:4%;
+margin-top: 1%;
+}
+#portalnav{
+  width:100%;
+  min-height:7vh;
+  }
+  #session{
+   float: right;
+   color:orange;
+  }
+  #addform{
+  	width: 50%;
+  	margin-left: 25%;
+  	border: solid 1px black;
+    margin-top: 2%;
+  }
+  #addform input,select{
+		display:block;
+		margin-left:20%;
+		margin-bottom: 2%;
+	}
+	#addform label{
+		margin-left:20%;
+
+	}
+	#addform input,select{
+		display:block;
+		margin-left:4%;
+		width:90%;
+		height:6vh;
+		border-radius:6px;
+	}
+	#fail{
+		color:red;
+		text-align: center;
+		font-weight: bold;
+	}
+	#success{
+		color:green;
+		text-align:center;
+		font-weight: bold;
+	}
+   #info{
+   	color:orange;
+   	text-align: center;
+   	font-weight: bold;
+
+   }
+   #top{
+    background: #116466;
+    color: white;
+    height:8vh;
+    margin-top: -2%;
+    margin-bottom:2%;
+    text-align: center;
+   }
+   #top h4{
+    padding-top: 2%;
+   }
+   #active a{
+    height:11vh; 
+    background: #116466;
+   }
+  /*End Addapartment*/
+
+  /*Start admin*/
+     #adminbody {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #8D8741;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#adminportal{
+  font-size: 22px;
+  color:white;
+  margin-right: 7%;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+
+
+
+#search label{
+  margin-left:10%;
+  
+}
+.sldimg{
+  height:100%;
+  width:100%;
+}
+footer{
+  background:black;
+  min-height:30vh;
+  width:100%;
+  
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+body{
+  background: #f0f0f0;
+}
+#portal{
+min-height: 90vh;
+background: white;
+border:solid 1px aqua;
+margin:4%;
+margin-top: 1%;
+}
+#portalnav{
+  width:100%;
+  min-height:7vh;
+  }
+   #session{
+   float: right;
+   color:white
+  }
+  tr:nth-child(odd){
+    background: #f0f0f0;
+
+  }
+   th{
+    text-align: left;
+    color: white;
+    background: #116466;
+  }
+  #header th{
+    text-align: center;
+    color: white;
+    background: #116466;
+  }
+
+  #header{
+    background: #116466;
+  }
+  #fail{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+  }
+  #success{
+    color:green;
+    text-align:center;
+    font-weight: bold;
+  }
+   #info{
+    color:orange;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   #suspendbtn{
+    height:5vh;
+    width:100%;
+    border: none;
+    border-radius: 4px;
+    border:1px solid orange;
+    color:black;
+   }
+   #oid{
+    display: none;
+   }
+   #active a{
+    height:11vh; 
+    background: #116466;
+   }
+   #ltable{
+    width: 100%;
+   }
+  /*end admin*/
+
+  /*Start adminbookings*/
+    #adminboookingsbody {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #8D8741;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#adminportal{
+  font-size: 22px;
+  color:white;
+  margin-right: 7%;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+
+
+
+#search label{
+  margin-left:10%;
+  
+}
+.sldimg{
+  height:100%;
+  width:100%;
+}
+footer{
+  background:black;
+  min-height:30vh;
+  width:100%;
+  
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+body{
+  background: #f0f0f0;
+}
+#portal{
+min-height: 90vh;
+background: white;
+border:solid 1px aqua;
+margin:4%;
+margin-top: 1%;
+}
+#portalnav{
+  width:100%;
+  min-height:7vh;
+  }
+   #session{
+   float: right;
+   color:white
+  }
+  tr:nth-child(odd){
+    background: #f0f0f0;
+
+  }
+   th{
+    text-align: left;
+    color: white;
+    background: #116466;
+  }
+  #header th{
+    text-align: center;
+    color: white;
+    background: #116466;
+  }
+
+  #header{
+    background: #116466;
+  }
+  #fail{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+  }
+  #success{
+    color:green;
+    text-align:center;
+    font-weight: bold;
+  }
+   #info{
+    color:orange;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   #suspendbtn{
+    height:5vh;
+    width:100%;
+    border: none;
+    border-radius: 4px;
+    border:1px solid orange;
+    color:black;
+   }
+   #oid{
+    display: none;
+   }
+   #active a{
+    height:11vh; 
+    background: #116466;
+   }
+   #ltable{
+    width: 100%;
+   }
+   #filterform{
+     margin-top: 2vh;
+     margin-bottom: 2vh;
+   }
+
+   #filterform input{
+    height:6Vh;
+    width:25%;
+    margin-right:5%;
+
+   }
+   #filterform label{
+    margin-left:2%;
+    
+   }
+  /*End of adminbookings*/
+
+  /*start of adminlogin*/
+  #adminloginbody{
+		background: #f0f0f0;
+	}
+	#success{
+		color:green;
+		margin-left:32.5%;
+	}
+	#fail{
+		color:red;
+		margin-left:32.5%;
+		
+	}
+	.lgform{
+	height:50%;
+	width:30%;
+	background:#ffffff;
+	margin-left:37%;
+	margin-top:2vh;
+	
+	
+}
+.lgform input{
+	display:block;
+	height:6vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:2vh;
+}
+.lgform label{
+	margin-left:5%;
+}
+#top{
+	min-height:10vh;
+	background:maroon;
+	width:100%;
+	text-align:center;
+	
+}
+#top p,h3{
+	padding-top:5%;
+	color:white;
+}
+#loginbtn{
+	height:6vh;
+	width:100%;
+	background:transparent;
+	border:none;
+}
+
+.regform{
+	height:100%;
+	width:35%;
+	background:#ffffff;
+	margin-left:32.5%;
+	margin-top:2vh;
+	opacity:0.8;
+	
+	
+}
+.regform1{
+	height:100%;
+	width:35%;
+	background:#ffffff;
+	margin-left:32.5%;
+	margin-top:2vh;
+	opacity:0.8;
+	
+	
+}
+.regform1 input{
+	display:block;
+	height:5vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:1vh;
+}
+.regform1 label{
+	margin-left:5%;
+}
+.regform input{
+	display:block;
+	height:5vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:1vh;
+}
+.regform label{
+	margin-left:5%;
+}
+@media only screen and (max-width: 600px) {
+	.regform,.lgform{
+		width:100%;
+		margin:0%;
+	}
+}
+
+  /*End of adminlogin*/
+
+  /*start of book*/
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+#bookbody {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#session{
+		color:white;
+		float: right;
+	}
+	#tenantportal{
+		margin-right:5%;
+		font-size: 28px;
+	}
+	 #top{
+	   min-height:10vh;
+	   background:teal;
+	   width:100%;
+	   text-align:center;
+	}
+	 #top p,h3{
+	     padding-top:5%;
+	    color:white;
+     }
+	   #bookingform{
+		background:white;
+		width:70%;
+		margin-left:15%;
+		height:80vh;
+		box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	}
+	#bookingform label{
+          margin-left:25%;
+		  
+	}
+	
+	#bookingform input,select{
+		display:block;
+		margin-left:25%;
+		margin-bottom:3vh;
+		height:6vh;
+		width:50%;
+		border-radius:5px;
+	}
+	#cancel{
+		background:orange;
+		height:5vh;
+		width:50%;
+		text-align:center;
+		padding-top:1vh;
+		margin-left:25%;
+		
+	}
+	a{
+		text-decoration:none;
+	}
+	body{
+		background:#f0f0f0;
+	}
+	#bookformbtn{
+		
+		width:20%;
+		margin-left:30%;
+		float:left;
+		
+	}
+	#seeformbtn{
+		
+		width:20%;
+		margin-left:15%;
+		float:left;
+	}
+	#success{
+		color:green;
+		margin-left:15%;
+	}
+	#fail{
+		color:red;
+		margin-left:15%;
+		font-weight: bold;
+		
+
+		
+	}
+	#apid{
+		display:none;
+		
+	}
+	#bookingform #apid{
+		display:none;
+		
+	}
+	#full{
+		color:orange;
+		border:solid 2px orange;
+		margin-left: 25%;
+		width:50%;
+		text-align: center;
+		background: black;
+	}
+	#yes{
+		color:white;
+		background: green;
+		width: 20%;
+		height:5vh;
+		border-radius: 5px;
+		border:none;
+
+	}
+	#no{
+		color:black;
+		background: ;
+		margin-left:10%;
+		width: 20%;
+		height:5vh;
+		border-radius: 5px;
+		border:solid 1px orange;
+
+	}
+.lgform{
+	height:50vh;
+	width:30%;
+	background:#ffffff;
+	margin-left:37%;
+	margin-top:2vh;
+	opacity:0.8;
+
+}
+.lgform input{
+	display:block;
+	height:6vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:2vh;
+}
+.lgform label{
+	margin-left:5%;
+}
+#top{
+	min-height:10vh;
+	background:teal;
+	width:100%;
+	text-align:center;
+	
+}
+#top p,h3{
+	padding-top:5%;
+	color:white;
+}
+.lgform .apdetails{
+  display: none;
+}
+.agreement{
+	min-height: 40vh;
+	border:solid 1px orange;
+	margin-left: 20%;
+	width:60%;
+	background: white;
+
+
+}
+.agreement h4{
+	text-align: center;
+}
+.agreement ol{
+	
+}
+#agreebtn{
+	height: 6vh;
+	width:30%;
+	border:1px solid orange;
+	margin-left:35%;
+}
+#bookdetails input{
+	display: none;
+}
+.mpesa{
+	width: 35%;
+	border:1px solid green;
+	background: white;
+	margin-left: 32.5%;
+	font-size:14px;
+	height: 96vh;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.mpesa img{
+    width:100%;
+    height:15vh;
+}
+.completebtn{
+	background: #4DBB49;
+	border:none;
+	color:white;
+	height:5vh;
+	width:35%;
+	border-radius: 3px;
+	margin-left:10%; 
+	float: left;
+}
+#payment input{
+    display:block;
+    margin-left: 10%;
+    margin-bottom: 2vh;
+    height:5vh;
+    border-radius: 3px;
+    width: 70%;
+}
+#payment label{
+	font-size: 16px;
+	margin-left: 10%;
+	font-weight:bold;
+}
+.cancelbtn{
+	border:solid 1px orange;
+	color:black;
+	height:5vh;
+	width:35%;
+	border-radius: 3px;
+	margin-left:10%; 
+	float: left;
+}
+#receipt{
+	display:none;
+}
+/*End of book*/
+
+/*start of book1*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+#book1body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+#session{
+		color:white;
+		float: right;
+	}
+	#tenantportal{
+		margin-right:5%;
+		font-size: 28px;
+	}
+	 #top{
+	   min-height:10vh;
+	   background:teal;
+	   width:100%;
+	   text-align:center;
+	}
+	 #top p,h3{
+	     padding-top:5%;
+	    color:white;
+     }
+	   #bookingform{
+		background:white;
+		width:70%;
+		margin-left:15%;
+		height:80vh;
+		box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	}
+	#bookingform label{
+          margin-left:25%;
+		  
+	}
+	
+	#bookingform input,select{
+		display:block;
+		margin-left:25%;
+		margin-bottom:3vh;
+		height:6vh;
+		width:50%;
+		border-radius:5px;
+	}
+	#cancel{
+		background:orange;
+		height:5vh;
+		width:50%;
+		text-align:center;
+		padding-top:1vh;
+		margin-left:25%;
+		
+	}
+	a{
+		text-decoration:none;
+	}
+	body{
+		background:#f0f0f0;
+	}
+	#bookformbtn{
+		
+		width:20%;
+		margin-left:30%;
+		float:left;
+		
+	}
+	#seeformbtn{
+		
+		width:20%;
+		margin-left:15%;
+		float:left;
+	}
+	#success{
+		color:green;
+		margin-left:15%;
+	}
+	#fail{
+		color:red;
+		margin-left:15%;
+		font-weight: bold;
+		
+
+		
+	}
+	#apid{
+		display:none;
+		
+	}
+	#bookingform #apid{
+		display:none;
+		
+	}
+	#full{
+		color:orange;
+		border:solid 2px orange;
+		margin-left: 25%;
+		width:50%;
+		text-align: center;
+		background: black;
+	}
+	#yes{
+		color:white;
+		background: green;
+		width: 20%;
+		height:5vh;
+		border-radius: 5px;
+		border:none;
+
+	}
+	#no{
+		color:black;
+		background: ;
+		margin-left:10%;
+		width: 20%;
+		height:5vh;
+		border-radius: 5px;
+		border:solid 1px orange;
+
+	}
+.lgform{
+	height:50vh;
+	width:30%;
+	background:#ffffff;
+	margin-left:37%;
+	margin-top:2vh;
+	opacity:0.8;
+
+}
+.lgform input{
+	display:block;
+	height:6vh;
+	width:90%;
+	border-radius:5px;
+	margin-left:5%;
+	margin-bottom:2vh;
+}
+.lgform label{
+	margin-left:5%;
+}
+#top{
+	min-height:10vh;
+	background:teal;
+	width:100%;
+	text-align:center;
+	
+}
+#top p,h3{
+	padding-top:5%;
+	color:white;
+}
+.lgform .apdetails{
+  display: none;
+}
+.agreement{
+	min-height: 40vh;
+	border:solid 1px orange;
+	margin-left: 20%;
+	width:60%;
+	background: white;
+
+
+}
+.agreement h4{
+	text-align: center;
+}
+.agreement ol{
+	
+}
+#agreebtn{
+	height: 6vh;
+	width:30%;
+	border:1px solid orange;
+	margin-left:35%;
+}
+#bookdetails input{
+	display: none;
+}
+.mpesa{
+	width: 35%;
+	border:1px solid green;
+	background: white;
+	margin-left: 32.5%;
+	font-size:14px;
+	height: 96vh;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.mpesa img{
+    width:100%;
+    height:15vh;
+}
+.completebtn{
+	background: #4DBB49;
+	border:none;
+	color:white;
+	height:5vh;
+	width:35%;
+	border-radius: 3px;
+	margin-left:10%; 
+	float: left;
+}
+#payment input{
+    display:block;
+    margin-left: 10%;
+    margin-bottom: 2vh;
+    height:5vh;
+    border-radius: 3px;
+    width: 70%;
+}
+#payment label{
+	font-size: 16px;
+	margin-left: 10%;
+	font-weight:bold;
+}
+.cancelbtn{
+	border:solid 1px orange;
+	color:black;
+	height:5vh;
+	width:35%;
+	border-radius: 3px;
+	margin-left:10%; 
+	float: left;
+}
+#receipt{
+	display:none;
+}
+/*End of book*/
+
+/*start contact*/
+ 	.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+footer{
+	background:black;
+	min-height:30vh;
+	width:100%;
+	
+}
+#contactbody{
+  background: url(../images/img.jpeg);
+  min-height: 80vh;
+}
+.contact{
+  min-height:80vh;
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+.contactform{
+  background: white;
+  width:33%;
+  margin-left: 33.5%;
+  margin-top: 3vh;
+  height:90vh; 
+  border-radius: 5px;
+}
+.contactform input{
+  width: 90%;
+  display:block;
+  height:5vh;
+  margin-left: 5%;
+  
+  border-radius: 4px;
+
+}
+.contactform label{
+  margin-left: 5%;
+  margin-top: 3vh;
+  font-weight: bold;
+}
+.contactform textarea{
+  height:15vh;
+  width:90%;
+  margin-left:5%;
+  
+  margin-bottom: 3vh;
+}
+  .success{
+    color:green;
+    margin-left:32.5%;
+    font-weight:bold;
+  }
+  .fail{
+    color:red;
+    margin-left:32.5%;
+    
+  }
+ #active a{
+    height:11vh; 
+    background: #116466;
+   }
+
+/*end of contact*/
+
+/*start editapartment*/
+ #editbody {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+#landlordportal{
+  font-size: 22px;
+  color:white;
+  margin-right: 5%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+
+
+
+#search label{
+  margin-left:10%;
+  
+}
+.sldimg{
+  height:100%;
+  width:100%;
+}
+footer{
+  background:black;
+  min-height:30vh;
+  width:100%;
+  
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+body{
+  background: #f0f0f0;
+}
+#portal{
+min-height: 90vh;
+background: white;
+border:solid 1px aqua;
+margin:4%;
+margin-top: 1%;
+}
+#portalnav{
+  width:100%;
+  min-height:7vh;
+  }
+  #session{
+   float: right;
+   color:orange;
+  }
+  #addform{
+  	width: 50%;
+  	margin-left: 25%;
+  	border: solid 1px black;
+    margin-top: 2%;
+  }
+  #addform input,select{
+		display:block;
+		margin-left:20%;
+		margin-bottom: 2%;
+	}
+	#addform label{
+		margin-left:20%;
+
+	}
+	#addform input,select{
+		display:block;
+		margin-left:4%;
+		width:90%;
+		height:6vh;
+		border-radius:6px;
+	}
+	#fail{
+		color:red;
+		text-align: center;
+		font-weight: bold;
+	}
+	#success{
+		color:green;
+		text-align:center;
+		font-weight: bold;
+	}
+   #info{
+   	color:orange;
+   	text-align: center;
+   	font-weight: bold;
+
+   }
+   #top{
+    background: #116466;
+    color: white;
+    height:8vh;
+    margin-top: -2%;
+    margin-bottom:2%;
+    text-align: center;
+   }
+   #top h4{
+    padding-top: 2%;
+   }
+   #active a{
+    height:11vh; 
+    background: #116466;
+   }
+/*End of editapartment*/
+
+/*start of history*/
+  #historybody {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+#landlordportal{
+  font-size: 22px;
+  color:white;
+  margin-right: 5%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.log {
+  float: left;
+  overflow: hidden;
+}
+
+.log .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:10000;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+
+.topnav a:hover, .log:hover .dropbtn {
+  background-color: #555;
+  color: white;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.log:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .log .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .log{float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .log .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+a .topnav{
+  font-size: 2em;
+}
+.ft{
+background-color: black;
+
+}
+* {box-sizing: border-box;}
+#historybody {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 3em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.ft{
+background-color: black;
+clear: both;
+
+}
+.foot{
+  background-color: black;
+  
+
+}
+.color-21{
+  color: white;
+  font-size: 2em;
+
+
+}
+.color-20{
+  color: white;
+  font-size: 1.5em; 
+}
+.fot .color-20{
+  float: right;
+  margin-right: 25%;
+}
+
+
+
+#search label{
+  margin-left:10%;
+  
+}
+.sldimg{
+  height:100%;
+  width:100%;
+}
+footer{
+  background:black;
+  min-height:30vh;
+  width:100%;
+  
+}
+#social{
+  height:8vh;
+  width:30%;
+  margin-left:35%;
+  position:absolute;
+  margin-top:5vh;
+
+}
+i{
+  float:left;
+  width:20%;
+  margin-left:4%;
+  height:80%;
+  padding-top:2%;
+  color:white;
+  padding-left:9%;
+  font-size:20;
+  background:teal;
+  border-radius:5px;
+  
+}
+body{
+  background: #f0f0f0;
+}
+#portal{
+min-height: 90vh;
+background: white;
+border:solid 1px aqua;
+margin:4%;
+margin-top: 1%;
+}
+#portalnav{
+  width:100%;
+  min-height:7vh;
+  }
+   #session{
+   float: right;
+   color:orange;
+  }
+  tr:nth-child(odd){
+    background: #f0f0f0;
+
+  }
+  th{
+    text-align: center;
+    color: white;
+    background: #116466;
+  }
+   #header{
+    background: #116466;
+  }
+  #fail{
+    color:red;
+    text-align: center;
+    font-weight: bold;
+  }
+  #success{
+    color:green;
+    text-align:center;
+    font-weight: bold;
+  }
+   #info{
+    color:orange;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   th{
+    text-align: left;
+    color: white;
+    background: #116466;
+  }
+  #header th{
+    text-align: center;
+    color: white;
+    background: #116466;
+    text-transform: capitalize;
+  }
+  #active a{
+    height:11vh; 
+    background: #116466;
+   }
+   #ltable{
+    width: 100%;
+   }
+   .selectapform{
+       margin-left:20%;
+       margin-top: 2vh;
+       margin-bottom: 2vh;
+   }
+   .selectapform select{
+    height:6vh;
+    width:30%;
+    border-radius: 4px;
+    
+   }
+   .selectapform input{
+    height:5.5vh;
+    width:15%;
+    border:none;
+    color:white;
+    background:#008ECC;
+    border-radius: 3px;
+  }
+/*End history*/
